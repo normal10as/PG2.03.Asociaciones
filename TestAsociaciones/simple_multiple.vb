@@ -5,10 +5,12 @@ Module simple_multiple
         Dim estante1 As New Estanteria()
         estante1.id = "E56"
 
-
         Dim libro1 As New Libro()
         libro1.nombre = "Paint for dummies"
+        'libro1.estanteria = estante1
         estante1.addLibro(libro1)
+        mostrarEstante(estante1)
+        Console.ReadKey()
         Dim libro2 As New Libro("Paint experto", estante1)
 
         mostrarEstante(estante1)

@@ -3,7 +3,7 @@
     Private _estanteria As Estanteria
 
     Public Sub New()
-
+        _estanteria = Nothing
     End Sub
 
     Public Sub New(nombre As String, estanteria As Estanteria)

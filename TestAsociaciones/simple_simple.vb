@@ -10,6 +10,7 @@ Module simple_simple
         maria.Esposar(juan)
         Console.WriteLine(maria)
         Console.WriteLine(juan)
+        Console.ReadKey()
         Dim nina As New Mujer("Nina")
         Dim pedro As New Hombre("Pedro")
         Console.WriteLine(nina)

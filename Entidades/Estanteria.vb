@@ -22,6 +22,7 @@
             If libro.estanteria IsNot Nothing Then
                 Dim otraEstanteria = libro.estanteria
                 otraEstanteria.removeLibro(libro)
+                'libro.estanteria.removeLibro(libro)
             End If
             libro.estanteria = Me
             _libros.Add(libro)
